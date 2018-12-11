@@ -40,7 +40,7 @@ public class LayerSample {
         
         JButton button2=new JButton("button2");
         button2.setBounds(50, 0, 100, 50);
-        desktopPane.add(button2, JDesktopPane.DEFAULT_LAYER);
+        desktopPane.add(button2, JDesktopPane.MODAL_LAYER);
         ///////////////////////////////////////////////////////
         ImageIcon icon = new ImageIcon(new URL("https://image.freepik.com/free-vector/blue-and-green-wavy-background_1035-7430.jpg"));
         JLabel label = new JLabel(icon);
